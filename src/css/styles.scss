@@ -13,6 +13,7 @@ body {
   h1 {
     text-align: center;
     color: black;
+		font-weight: bold;
   }
 }
 footer {
@@ -33,5 +34,28 @@ img {
 	  margin-right: auto;}
 }
 #description {
-	height: 300px;
+	min-height: 300px;
+	margin-top: 20px;
+
+
+}
+#review {
+	border: 1px solid white;
+	border-radius: 10px;
+	h1 {
+		padding: 30px;
+		border-radius: 3px;
+	}
+
+}
+#info {
+	padding: 30px;
+	padding-top: 10px;
+	background-color: white;
+	color: black;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	h4 {
+		margin-top: 10px;
+	}
 }
