@@ -102,20 +102,37 @@ let arr = [{
 
 }]
 
-function createRateYoClasses(number) {
-  return ".rateYo" + number;
+function createClasses(className, number) {
+  return className + number;
+}
+function createButton (index) {
+  return $(createClasses(".button", index + 1)).click(function(){
+      $("#description").replaceWith(`
+        <div id="description">
+        <h1>${arr[index].title}</h1>
+        <h4>${arr[index].year}</h4>
+        <h4>Starring ${arr[index].starring}</h4>
+        <p>${arr[index].review}</p>
+        </div>`);
+  });
 }
 var txt = "";
 for (var i = 0; i < arr.length; i++) {
-  $(function () {
-    for (var j = 0; j < arr.length; j++) {
-    $(createRateYoClasses(j+1)).rateYo({rating: arr[j].stars, spacing: "5px"});
-  }
-  });
+    $(function () {
+        for (var j = 0; j < arr.length; j++) {
+            $(createClasses(".rateYo", j+1)).rateYo({rating: arr[j].stars, spacing: "5px"});
+        }
+    });
   txt += `<div class='movie'>
-          <img src="https://s3-us-west-2.amazonaws.com/film.bodiewebdesign.com/img/${arr[i].image}.jpg">
+              <img src="https://s3-us-west-2.amazonaws.com/film.bodiewebdesign.com/img/${arr[i].image}.jpg">
                     <div class='rateYo${i+1}'></div>
-                    </div>
+                    <button type="button" class="btn btn-primary button${i+1}">View Details</button>
+          </div>
                     `
-         }
+}
 document.getElementById("movies").innerHTML = txt;
+
+
+for (var i = 0; i < arr.length; i++) {
+    createButton(i);
+}
