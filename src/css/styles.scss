@@ -10,10 +10,12 @@ body {
   color: white;
 }
 .jumbotron {
+	background-color: black;
   h1 {
     text-align: center;
-    color: black;
+    color: white;
 		font-weight: bold;
+		text-shadow: 2px 2px 4px blue;
   }
 }
 footer {
@@ -24,12 +26,13 @@ footer {
 }
 img {
 	@include center;
+	border: 1px solid black;
 }
 .btn-primary {
 	@include center;
 	margin-top: 10px;
 }
-@for $i from 1 through 13 {
+@for $i from 1 through 17 {
   .rateYo#{$i} {display: block;  margin-left: auto;
 	  margin-right: auto;}
 }

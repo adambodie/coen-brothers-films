@@ -11,7 +11,7 @@ let arr = [{
   "image": "raising-arizona",
 	"year": 1987,
 	"starring": "Nicolas Cage, Holly Hunter",
-	"review": "Fixie sunt mlkshk, flexitarian labore farm-to-table nisi salvia chicharrones culpa. Truffaut chicharrones small batch, qui butcher 8-bit DIY chillwave viral scenester. Bitters elit labore, subway tile tempor semiotics art party. Kogi jean shorts twee 8-bit tempor plaid. Street art snackwave ugh XOXO edison bulb, consectetur everyday carry post-ironic plaid. Intelligentsia organic forage four dollar toast lomo irure, art party nesciunt proident jianbing ugh delectus. Succulents raclette non photo booth live-edge cred health goth, butcher synth ut authentic.",
+	"review": "Raising Arizona, the Coen Brothers second film overall, was their first foray into their lighthearted darkish comedy films, a complete departure from their debut film.  Starring Nicolas Cage as H.I. McDonough, an ex-con who marries and cop and steals a child, one of the Arizona Quints, thinking their parents don’t need all them children.  Raising Arizona, unlike its predecessor, provides more interesting and sympathetic characters, including the larger than life Leonard Smalls, a.k.a. The Lone Biker of the Apocalypse, who is the first of many fascinating and eccentric characters the Coen Brothers are known for.  The premise of the film is compelling, and manages to provide a crazy, yet human-filled touch of compassion and realism, something the Coen Brothers are known for.",
 	"stars": 4.0
 
 }, {
@@ -29,6 +29,13 @@ let arr = [{
 	"review": "Fixie sunt mlkshk, flexitarian labore farm-to-table nisi salvia chicharrones culpa. Truffaut chicharrones small batch, qui butcher 8-bit DIY chillwave viral scenester. Bitters elit labore, subway tile tempor semiotics art party. Kogi jean shorts twee 8-bit tempor plaid. Street art snackwave ugh XOXO edison bulb, consectetur everyday carry post-ironic plaid. Intelligentsia organic forage four dollar toast lomo irure, art party nesciunt proident jianbing ugh delectus. Succulents raclette non photo booth live-edge cred health goth, butcher synth ut authentic.",
 	"stars": 4.0
 }, {
+	"title": "The Hudsucker Proxy",
+  "image": "the-hudsucker-proxy",
+	"year": 1994,
+	"starring": "Tim Robbins, Jennifer Jason Leigh, Paul Newman",
+	"review": "Fixie sunt mlkshk, flexitarian labore farm-to-table nisi salvia chicharrones culpa. Truffaut chicharrones small batch, qui butcher 8-bit DIY chillwave viral scenester. Bitters elit labore, subway tile tempor semiotics art party. Kogi jean shorts twee 8-bit tempor plaid. Street art snackwave ugh XOXO edison bulb, consectetur everyday carry post-ironic plaid. Intelligentsia organic forage four dollar toast lomo irure, art party nesciunt proident jianbing ugh delectus. Succulents raclette non photo booth live-edge cred health goth, butcher synth ut authentic.",
+	"stars": 0.0
+},{
 	"title": "Fargo",
   "image": "fargo",
 	"year": 1996,
@@ -41,7 +48,7 @@ let arr = [{
   "image": "big-lebowski",
 	"year": 1998,
 	"starring": "Jeff Bridges, John Goodman, Julianne Moore, Steve Buscemi",
-	"review": "Fixie sunt mlkshk, flexitarian labore farm-to-table nisi salvia chicharrones culpa. Truffaut chicharrones small batch, qui butcher 8-bit DIY chillwave viral scenester. Bitters elit labore, subway tile tempor semiotics art party. Kogi jean shorts twee 8-bit tempor plaid. Street art snackwave ugh XOXO edison bulb, consectetur everyday carry post-ironic plaid. Intelligentsia organic forage four dollar toast lomo irure, art party nesciunt proident jianbing ugh delectus. Succulents raclette non photo booth live-edge cred health goth, butcher synth ut authentic.",
+	"review": "Set in 1991 in Los Angeles, The Big Lebowski stars Jeff Bridges as ‘The Dude,’ who becomes involved in a ransom due to mistaken identity.  A more comedic effort than the Coen Brothers other films, The Big Lebowski became a cult classic over the years in part due to its eccentric characters, crazy dream sequences and an eclectic soundtrack.  Typical of any Coen Brothers film, The Big Lebowski provides memorable characters, from the main characters to the minor, complete with quotable lines.  It’s no wonder that since 2002, an annual Lebowski Fest is held for those who cherish the film and everything it represents.  No film, in its essence, is more worthy of the term cult classic than The Big Lebowski, which wasn’t well received when it first came out, but like a great bottle of wine, or perhaps more fitting, a White Russian, has aged well over time.  The fun never ends with The Big Lebowski, full of crazy plot sequences, dream sequences and fascinating characters.",
 	"stars": 5.0
 
 }, {
@@ -53,6 +60,14 @@ let arr = [{
 	"stars": 4.5
 
 }, {
+	"title": "The Man Who Wasn't There",
+  "image": "the-man-who-wasnt-there",
+	"year": 2001,
+	"starring": "Billie Bob Thornton, Frances McDormand, James Gandolfini",
+	"review": "Fixie sunt mlkshk, flexitarian labore farm-to-table nisi salvia chicharrones culpa. Truffaut chicharrones small batch, qui butcher 8-bit DIY chillwave viral scenester. Bitters elit labore, subway tile tempor semiotics art party. Kogi jean shorts twee 8-bit tempor plaid. Street art snackwave ugh XOXO edison bulb, consectetur everyday carry post-ironic plaid. Intelligentsia organic forage four dollar toast lomo irure, art party nesciunt proident jianbing ugh delectus. Succulents raclette non photo booth live-edge cred health goth, butcher synth ut authentic.",
+	"stars": 0
+
+},{
 	"title": "Intolerable Cruelty",
   "image": "intolerable_cruelty",
 	"year": 2003,
@@ -81,7 +96,7 @@ let arr = [{
   "image": "burn-after-reading",
 	"year": 2008,
 	"starring": "Frances McDormand, Brad Pitt, George Clooney, John Malkovich, Tilda Swanson",
-	"review": "Fixie sunt mlkshk, flexitarian labore farm-to-table nisi salvia chicharrones culpa. Truffaut chicharrones small batch, qui butcher 8-bit DIY chillwave viral scenester. Bitters elit labore, subway tile tempor semiotics art party. Kogi jean shorts twee 8-bit tempor plaid. Street art snackwave ugh XOXO edison bulb, consectetur everyday carry post-ironic plaid. Intelligentsia organic forage four dollar toast lomo irure, art party nesciunt proident jianbing ugh delectus. Succulents raclette non photo booth live-edge cred health goth, butcher synth ut authentic.",
+	"review": "Featuring an all-star cast, Burn After Reading is a complex tale involving political affairs, blackmail for plastic surgery and revenge.  Like many of their films, Burn After Reading contains plenty of lighthearted moments, mainly from goofy gym instructor Chad (Brad Pitt), who serves as a comic foil compared to the paranoid U.S. Marshal Harry Pfarrer (George Clooney) and angry Osborne Cox (John Malkovich).  Burn After Reading doesn't quite capture the enivronment as some of their more prestigious films do, and the plot of the movie is a bit hard to follow at times, but for what it's worth, the movie as a whole is a fun experience for those who like the more lighthearted comedy thrillers.",
 	"stars": 4.0
 
 }, {
@@ -99,6 +114,22 @@ let arr = [{
 	"starring": "Jeff Bridges, Josh Brolin, Matt Damon",
 	"review": "Fixie sunt mlkshk, flexitarian labore farm-to-table nisi salvia chicharrones culpa. Truffaut chicharrones small batch, qui butcher 8-bit DIY chillwave viral scenester. Bitters elit labore, subway tile tempor semiotics art party. Kogi jean shorts twee 8-bit tempor plaid. Street art snackwave ugh XOXO edison bulb, consectetur everyday carry post-ironic plaid. Intelligentsia organic forage four dollar toast lomo irure, art party nesciunt proident jianbing ugh delectus. Succulents raclette non photo booth live-edge cred health goth, butcher synth ut authentic.",
 	"stars": 4.5
+
+}, {
+	"title": "Inside Llewyn Davis",
+  "image": "inside-llewyn-davis",
+	"year": 2013,
+	"starring": "Oscar Isaac, Carey Mulligan, John Goodman",
+	"review": "Fixie sunt mlkshk, flexitarian labore farm-to-table nisi salvia chicharrones culpa. Truffaut chicharrones small batch, qui butcher 8-bit DIY chillwave viral scenester. Bitters elit labore, subway tile tempor semiotics art party. Kogi jean shorts twee 8-bit tempor plaid. Street art snackwave ugh XOXO edison bulb, consectetur everyday carry post-ironic plaid. Intelligentsia organic forage four dollar toast lomo irure, art party nesciunt proident jianbing ugh delectus. Succulents raclette non photo booth live-edge cred health goth, butcher synth ut authentic.",
+	"stars": 0
+
+}, {
+	"title": "Hail, Caesar!",
+  "image": "hail-caesar",
+	"year": 2016,
+	"starring": "Josh Brolin, George Clooney, Alden Ehrenreich, Scarlett Johannson, Jonah Hill",
+	"review": "Fixie sunt mlkshk, flexitarian labore farm-to-table nisi salvia chicharrones culpa. Truffaut chicharrones small batch, qui butcher 8-bit DIY chillwave viral scenester. Bitters elit labore, subway tile tempor semiotics art party. Kogi jean shorts twee 8-bit tempor plaid. Street art snackwave ugh XOXO edison bulb, consectetur everyday carry post-ironic plaid. Intelligentsia organic forage four dollar toast lomo irure, art party nesciunt proident jianbing ugh delectus. Succulents raclette non photo booth live-edge cred health goth, butcher synth ut authentic.",
+	"stars": 0
 
 }]
 
