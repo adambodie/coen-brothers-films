@@ -8,17 +8,8 @@ module.exports = {
     module: {
         loaders: [
           { test: /\.js$/, loader: 'babel', exclude: /node_modules/ },
-            {
-                test: /(\.css|\.less|\.scss)$/,
-                loader: 'null-loader',
-                exclude: [
-                    /build/
-                ]
-            },
-            {
-                test: /(\.jpg|\.jpeg|\.png|\.gif)$/,
-                loader: 'null-loader'
-            }
+          { test: /(\.css|\.less|\.scss)$/, loader: 'null-loader', exclude: [/build/]},
+          { test: /(\.jpg|\.jpeg|\.png|\.gif)$/, loader: 'null-loader'}
         ]
     }
 };
