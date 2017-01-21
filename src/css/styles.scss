@@ -35,12 +35,10 @@ img {
 @for $i from 1 through 17 {
   .rateYo#{$i} {display: block;  margin-left: auto;
 	  margin-right: auto;}
+	.triangle#{$i} {margin-bottom: -5px; z-index: 10000;}
 }
 #description {
 	min-height: 300px;
-	margin-top: 20px;
-
-
 }
 #review {
 	border: 1px solid white;

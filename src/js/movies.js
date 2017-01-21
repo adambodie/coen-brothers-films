@@ -3,7 +3,11 @@ var films = require('./films.js');
 
 var createButton = (index) => {
  return $(`.button${index + 1}`).click(function(){
+   for (var k = 0; k < films.length; k++) {
+       $(`.triangle${k+1}`).css("display", "none");
+   }
 		 $("#description").replaceWith(replaceDescription(films[index].title, films[index].year, films[index].starring, films[index].review));
+     $(`.triangle${index+1}`).css("display", "block");
  });
 }
 $(function () {
@@ -14,10 +18,11 @@ $(function () {
 
 var txt = "";
 for (var i = 0; i < films.length; i++) {
-  txt += `<div class='movie'>
+  txt += `<div class='movie${i+1}'>
               <img src="https://s3-us-west-2.amazonaws.com/film.bodiewebdesign.com/img/${films[i].image}.jpg" class="img-responsive">
                     <div class='rateYo${i+1}'></div>
                     <button type="button" class="btn btn-primary button${i+1}">View Details</button>
+                    <img src="https://s3-us-west-2.amazonaws.com/film.bodiewebdesign.com/img/triangle.png" class="img-responsive triangle${i+1}" style="display:none">
           </div>
                     `
 }
