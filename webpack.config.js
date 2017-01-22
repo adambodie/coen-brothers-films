@@ -1,6 +1,7 @@
 'use strict';
 
 var HtmlWebpackPlugin = require("html-webpack-plugin");
+var UglifyJsPlugin = require("uglify-js-plugin");
 
 var webpackConfig = {
 	entry: "./src/index.js",
@@ -19,7 +20,12 @@ var webpackConfig = {
 	plugins: [
 		new HtmlWebpackPlugin({
 			template: "src/index.html"
-		})
+		}),
+		new UglifyJsPlugin({
+      compress: {
+        warnings: false
+      }
+    })
 	]
 };
 
