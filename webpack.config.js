@@ -2,6 +2,8 @@
 
 var HtmlWebpackPlugin = require("html-webpack-plugin");
 var UglifyJsPlugin = require("uglify-js-plugin");
+var webpack = require('webpack');
+var jquery = require('jquery');
 
 var webpackConfig = {
 	entry: "./src/index.js",
@@ -21,11 +23,15 @@ var webpackConfig = {
 		new HtmlWebpackPlugin({
 			template: "src/index.html"
 		}),
+		new webpack.ProvidePlugin({
+    'jQuery': 'jquery',
+    '$': 'jquery',
+})/*,
 		new UglifyJsPlugin({
       compress: {
         warnings: false
       }
-    })
+    })*/
 	]
 };
 
