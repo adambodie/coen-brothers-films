@@ -41,19 +41,22 @@ img {
 	min-height: 300px;
 }
 #review {
-	border: 1px solid white;
+	border: 5px solid white;
 	border-radius: 10px;
+	color: black;
+	background-color: white;
 	h1 {
 		padding: 30px;
 		border-radius: 3px;
+		font-weight: bold;
 	}
 
 }
 #info {
 	padding: 30px;
 	padding-top: 10px;
-	background-color: white;
-	color: black;
+	background-color: black;
+	color: white;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 	h4 {

@@ -56,7 +56,7 @@ let films = [{
   "image": "o-brother-where-art-thou",
 	"year": 2000,
 	"starring": "George Clooney, John Turturro, Tim Blake Nelson",
-	"review": "The Coen Brothers released O Brother, Where Art Thou? in 2000.  Set in 1937 in Mississippi during the Great Depression, O Brother, Where Art Thou? is based on the classic Greek poem The Odyssey, written by Homer.  The story is of three convicts who escape from prison, and their quest for treasure.  One particularly great aspect of this film is the overall feel for the era, from the dull sepia-tinted background to the extensive use of folk music.  The soundtrack, which won the Grammy for Album of the Year in 2002, plays a key role in the film, in particular the hit song 'I Am A Man of Constant Sorrow.'  The movie's plot provides a modern take of The Odyssey, which is by no means revolutionary, but nonetheless, fitting for the film's perceived simpler times.  The acting of the film isn't mind-blowing, but at the end of the day, the three convicts, played by Clooney, Turturro and Nelson, are likeable enough, while there are interesting minor roles, played by the likes of Coen Brothers favorite John Goodman and Stephen Root.  In all, O Brother, Where Art Thou? is a charming and fun ride for those willing to take it.",
+	"review": "The Coen Brothers released O Brother, Where Art Thou? in 2000.  Set in 1937 in Mississippi during the Great Depression, O Brother, Where Art Thou? is based on the classic Greek poem The Odyssey, written by Homer.  The story is of three convicts, Ulysses Everett McGill (George Clooney), Pete Hogwallop (John Turturro), and Delmar O'Donnel (Tim Blake Nelson) who escape from prison, and their quest for treasure.  One particularly great aspect of this film is the overall feel for the era, from the dull sepia-tinted background to the extensive use of folk music.  The soundtrack, which won the Grammy for Album of the Year in 2002, plays a key role in the film, in particular the hit song 'I Am A Man of Constant Sorrow.'  The movie's plot provides a modern take of The Odyssey, which is by no means revolutionary, but nonetheless, fitting for the film's perceived simpler times.  The acting of the film isn't mind-blowing, but at the end of the day, the three convicts, played by Clooney, Turturro and Nelson, are likeable enough, while there are interesting minor roles, played by the likes of Coen Brothers favorite John Goodman and Stephen Root.  In all, O Brother, Where Art Thou? is a charming and fun ride for those willing to take it.",
 	"stars": 4.5
 
 }, {
@@ -104,7 +104,7 @@ let films = [{
   "image": "a-serious-man",
 	"year": 2009,
 	"starring": "Michael Stuhlbarg, Richard Kind, Fred Melamed",
-	"review": "Review coming soon...",
+	"review": "Set in the Coen Brothers home state of Minnesota, A Serious Man is about a Jewish teacher Larry Gopnik (Michael Stuhlbarg), whose life goes through a spiral after his wife asks for a get (a Jewish divorce document).  A Serious Man might lack star power, but makes up for it with gritty realism, perfectly blending religion, family and the natural elements to describe the chaos around Gopnik's life.  The opening scene telling a Yiddish folktale was the perfect metaphor to describe the film's apocalyptic vision.  The Coen Brothers effectively make an average story of a mid-life crisis and turn it upside down through a way that can be best described as poetic.",
 	"stars": 4.0
 
 }, {
@@ -128,8 +128,8 @@ let films = [{
   "image": "hail-caesar",
 	"year": 2016,
 	"starring": "Josh Brolin, George Clooney, Alden Ehrenreich, Scarlett Johannson, Jonah Hill",
-	"review": "Review coming soon...",
-	"stars": 0
+	"review": "The Coen Brothers most recent film, Hail, Caesar!, is about a Hollywood 'fixer', Eddie Mannix (Josh Brolin), who has to deal with various issues involving his studio's motion pictures, primarily the kidnapping of his movie star Baird Whitlock (George Clooney) during production of a movie entitled Hail, Caesar!  Set in the 1950's, the Coen Brothers captured the era in a visually striking way.  But the various plots within the movie make it a little hard to follow at times, and don't quite draw the viewer in as some of their other films have done.  Hail, Caesar! does a good job of representing the roaring 50's, but the Coen Brothers could have done a better job with what was a great premise.  Not the Coen Brothers best film, but it's definitely worth checking out.",
+	"stars": 3.0
 
 }]
 
