@@ -2,11 +2,11 @@
 import "./css/normalize.scss";
 import "./css/styles.scss";
 import "./css/jquery.rateyo.min.scss";
-import "./css/slick.scss";
-//import "./css/slick-theme.scss";
-import './js/bootstrap.min.js';
-import './js/slick.min.js';
+import "./slick/slick.scss";
+//import "./slick/slick-theme.scss";
+import "./js/bootstrap.min.js";
+import "./slick/slick.min.js";
 //import './js/jquery.rateyo.min.js';
-import './js/copyright.js';
+import "./js/copyright.js";
 import "./js/movies.js";
 import "./js/my-slick.js";

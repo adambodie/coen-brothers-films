@@ -19,7 +19,7 @@ var createButton = (index) => {
 var txt = "";
 for (var i = 0; i < films.length; i++) {
   txt += `<div class='movie${i+1}'>
-              <img src="https://s3-us-west-2.amazonaws.com/film.bodiewebdesign.com/img/${films[i].image}.jpg" class="img-responsive">
+              <img src="./src/img/${films[i].image}.jpg" class="img-responsive">
                     <div class='rateYo${i+1}'></div>
                     <button type="button" class="btn btn-primary button${i+1}">View Details</button>
                     <img src="https://s3-us-west-2.amazonaws.com/film.bodiewebdesign.com/img/triangle.png" class="img-responsive triangle${i+1}" style="display:none">
