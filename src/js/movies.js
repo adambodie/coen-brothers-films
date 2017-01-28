@@ -10,11 +10,11 @@ var createButton = (index) => {
      $(`.triangle${index+1}`).css("display", "block");
  });
 }
-/*$(function () {
+$(function () {
 		for (var j = 0; j < films.length; j++) {
-				$(`.rateYo${j+1}`).rateYo({rating: films[j].stars, spacing: "5px"});
+				//$(`.rateYo${j+1}`).rateYo({rating: films[j].stars, spacing: "5px"});
 		}
-});*/
+});
 
 var txt = "";
 for (var i = 0; i < films.length; i++) {
