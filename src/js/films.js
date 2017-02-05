@@ -112,7 +112,7 @@ let films = [{
   "image": "true-grit",
 	"year": 2010,
 	"starring": "Jeff Bridges, Josh Brolin, Matt Damon",
-	"review": "True Grit, a remake of the classic 1969 film of the same name starring John Wayne and Glen Campbell, tells the tale of a young girl Mattie Ross (Hailee Steinfield) who hires U.S. Marshal Rooster Cogburn (Jeff Bridges) to hunt down the man who murdered her father.  The Coen Brothers stay faithful to both the original movie and the book it’s based on, and the result is a great Western.   Steinfield, making her feature film debut as Mattie Ross, plays the part to perfection, as a young and ambitious girl looking for revenge and determined to get what she wants, while Bridges plays the gritty ruthless marshal to great results.  Not surprisingly, both received an Academy Award nomination for their roles.  True Grit is a modern take on a classic western, all while remaining true to the original.  Those who love westerns won’t be disappointed.",
+	"review": "True Grit, a remake of the classic 1969 film of the same name starring John Wayne and Glen Campbell, tells the tale of a young girl Mattie Ross (Hailee Steinfield) who hires U.S. Marshal Rooster Cogburn (Jeff Bridges) to hunt down the man who murdered her father.  The Coen Brothers stay faithful to both the original movie and the book it’s based on, and the result is a great Western.   Steinfield, making her feature film debut as Mattie Ross, plays the part to perfection, as a young and ambitious girl looking for revenge and determined to get what she wants, while Bridges plays the gritty ruthless marshal to great results.  Not surprisingly, both received an Academy Award nomination for their roles.  True Grit is a modern take on a classic western, all while remaining true to the original.  Those who love westerns won't be disappointed.",
 	"stars": 4.5
 
 }, {
@@ -120,8 +120,8 @@ let films = [{
   "image": "inside-llewyn-davis",
 	"year": 2013,
 	"starring": "Oscar Isaac, Carey Mulligan, John Goodman",
-	"review": "Review coming soon...",
-	"stars": 0
+	"review": "Set in 1961, Inside Llewyn Davis is a film about a Llewyn Davis (Oscar Isaac), a struggling folk singer and his highs and lows trying to survive a music industry that can be cruel.  As with many of their other films, the Coen Brothers perfectly describe that cruel reality, complete with a dark and at times stormy backdrop that can only be described as poetic.  The plot at times is hit and miss, but yet the main characters plight through it all is perfectly preformed by Oscar Isaac, who not only provides a great musicality to his character, but also showcases the mix of emotions that only a folk singer could do.  Inside Llewyn Davis is the type of film that the Coen Brothers do so well, and it certainly won't disappoint those who enjoy drama pieces.",
+	"stars": 4.0
 
 }, {
 	"title": "Hail, Caesar!",

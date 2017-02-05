@@ -12,7 +12,7 @@ var createButton = (index) => {
 }
 $(function () {
 		for (var j = 0; j < films.length; j++) {
-				//$(`.rateYo${j+1}`).rateYo({rating: films[j].stars, spacing: "5px"});
+				$(`.rateYo${j+1}`).rateYo({rating: films[j].stars, spacing: "5px"});
 		}
 });
 

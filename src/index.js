@@ -18,7 +18,7 @@ import "./slick/ajax-loader.gif";
 import "./slick/slick-theme.scss";
 import "./bootstrap/js/bootstrap.min.js";
 import "./slick/slick.min.js";
-//import "./rateyo/jquery.rateyo.min.js";
+import "./rateyo/jquery.rateyo.min.js";
 import "./js/copyright.js";
 import "./js/movies.js";
 import "./js/my-slick.js";

@@ -7,8 +7,8 @@ $('#movies').slick({
       breakpoint: 768,
       settings: {
         arrows: false,
+        variableWidth: false,
         centerMode: true,
-        centerPadding: '40px',
         slidesToShow: 3
       }
     },
@@ -16,8 +16,9 @@ $('#movies').slick({
       breakpoint: 480,
       settings: {
         arrows: false,
+        variableWidth: false,
         centerMode: true,
-        centerPadding: '40px',
+        centerPadding: '10px',
         slidesToShow: 1
       }
     }
