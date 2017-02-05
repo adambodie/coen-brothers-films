@@ -31,7 +31,7 @@ var webpackConfig = {
       compress: {
         warnings: false
       }
-    })*/
+    })
 	]
 };
 
