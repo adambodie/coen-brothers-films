@@ -1,4 +1,5 @@
 'use strict';
+
 import "./css/normalize.scss";
 import "./bootstrap/fonts/glyphicons-halflings-regular.svg";
 import "./bootstrap/fonts/glyphicons-halflings-regular.eot";
